@@ -1,100 +1,89 @@
-# Superstore Sales Dashboard – Excel
+# Data Jobs Dashboard – Power BI
 
 ## Project Overview
 
-Interactive sales performance dashboard created in Microsoft Excel.
+Interactive Power BI dashboard analyzing the global data job market.  
+The project focuses on salary levels, job trends, job structure, education requirements, and geographic distribution of job postings.
 
-The project analyzes company sales data across multiple dimensions including time, category, customer segment, shipping method, and region.  
-The dashboard provides insights into revenue, profitability, product performance, and sales trends.
-
-Dataset contains multi-year transactional sales data (2011–2014).
+Dataset includes 479k+ job postings with salary and job metadata.
 
 ---
 
 ## Key KPIs
 
-- Total Sales: €2.29M
-- Total Profit: €286K
-- Profit Margin: 12%
-- Monthly sales performance
-- Quantity sold trends
-- Category and sub-category breakdown
+- Total job count: 479k+
+- Median yearly salary: $113k
+- Salary breakdown by job title
+- Share of postings without degree requirement
+- Share of remote (WFH) jobs
 
 ---
 
 ## Analytical Areas
 
-### 1. Sales Performance Analysis
-- Monthly sales trends (Jan–Dec)
-- Year-over-year sales comparison (2011–2014)
-- Quantity sold analysis
-- Top selling products by revenue
-- Category and sub-category revenue ranking
+### 1. Salary Analysis
+- Median yearly salary by job title
+- Highest paying data roles
+- Salary comparison across countries
+- Salary vs salary rate analysis
+- Country-level salary visualization (map)
+- Drill-through page for selected job (e.g. Data Engineer)
 
-### 2. Profitability Insights
-- Total profit analysis
-- Profit margin indicator
-- Sales vs profit relationship
-- Product-level profitability overview
+### 2. Job Market Trends
+- Monthly job posting trends (2024)
+- Job structure and portion by role
+- Trend comparison across job titles
+- Job count per role and quarter
 
-### 3. Customer & Segment Analysis
-- Sales by segment (Consumer, Corporate, Home Office)
-- Segment contribution comparison
-- Regional performance (Central, East, South, West)
-- City and state-level breakdown
+### 3. Education & Requirements
+- Share of postings without degree mention
+- Top roles with no degree requirement (amount & %)
+- Country comparison – where degree is less frequently required
 
-### 4. Operational Insights
-- Shipping mode distribution (First Class, Second Class, Standard Class, Same Day)
-- Delivery performance comparison
-- Category performance radar chart
-- Sales distribution by shipping type
-
----
-
-## Dashboard Features
-
-- Interactive slicers (Year, Segment, Region, Month)
-- Dynamic Pivot Tables
-- Pivot Charts
-- KPI cards
-- Automated calculations
-- Clean dark-theme dashboard layout
+### 4. Job Structure Insights
+- Job type distribution (Full-time, Contractor, Internship, Part-time)
+- Work From Home (WFH) share
+- Source of job posting (LinkedIn, Indeed, etc.)
+- Company-level salary overview
 
 ---
 
 ## Technical Implementation
 
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Data cleaning & transformation
-- Structured dataset model
-- Aggregations using SUM, calculated fields
-- Dashboard design using shapes and formatting
+- Power BI
+- Power Query (data transformation)
+- Data modeling with relationships
+- DAX measures for:
+  - Median salary
+  - Job count
+  - Percentage calculations
+  - Trend metrics
+- Drill-through functionality
+- Interactive slicers (job title, date, salary range)
+- Map visualizations (Bing / ESRI)
 
 ---
 
 ## Business Purpose
 
-This dashboard simulates a sales controlling scenario and supports:
+The dashboard simulates a labor market analysis scenario that could support:
 
-- Revenue monitoring
-- Profitability tracking
-- Segment performance analysis
-- Regional sales evaluation
-- Operational efficiency review
-- Decision-making support for sales strategy
+- Salary benchmarking
+- Market competitiveness assessment
+- Hiring strategy decisions
+- Remote work analysis
+- Education requirement evaluation
+- Global talent market insights
 
 ---
 
 ## Example Insights
 
-- Technology and Consumer segments generate the highest revenue.
-- November and December show peak sales periods.
-- Standard Class shipping dominates order volume.
-- Profit margin remains stable at approximately 12%.
-- Certain product categories generate high sales but lower relative profitability.
+- Senior Data Scientist and Machine Learning Engineer roles show the highest median salaries.
+- Around one-third of postings do not explicitly require a degree.
+- The majority of positions are Full-time (~90%).
+- Remote work availability remains limited compared to total postings.
+- The US and Western Europe dominate high-salary job distribution.
 
 ---
 
